@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic và video YouTube</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f3f4f6;
+        }
+        .container {
+            width: min(960px, 92%);
+            margin: 40px auto;
+            padding: 32px;
+            text-align: center;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+            box-sizing: border-box;
+        }
+        h1 { color: #0f766e; }
+        .description { color: #4b5563; }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 24px auto;
+            border-radius: 8px;
+        }
+        .video {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            margin-top: 24px;
+        }
+        iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+        footer { 
+            margin-top: 28px; 
+            font-size: .9rem; 
+            color: #6b7280; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Infographic và video hướng dẫn</h1>
+        <p class="description">Khám phá thông tin trực quan qua infographic và tìm hiểu thêm qua video YouTube bên dưới.</p>
+
+        <img src="Lab05_Ex2.1.png" alt="Infographic minh họa nội dung">
+
+        <h2>Video YouTube</h2>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/ZWMcd5Kzm6E"
+                    title="Video YouTube minh họa"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Bản quyền nội dung và hình ảnh thuộc về tác giả/chủ sở hữu tương ứng.</p>
+        <p>Mã nguồn được hỗ trợ bởi AI.</p>
+    </footer>
+
+</body>
+</html>
